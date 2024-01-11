@@ -1,0 +1,65 @@
+$pcolor : #3DBB99;
+$scolor : #FFFFFF;
+$tcolor : #1F6363;
+$qcolor : #FBEE8A;
+
+
+#home{
+    width: 100%;
+    height: 100%;
+    #capa{
+        position: absolute;
+        z-index: -1;
+        filter: brightness(0.6);
+        height: 100%;
+    }
+    
+    .home-content{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        #home-1st-section{
+            h1{
+                font-weight: 500; 
+                color: #FFF;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal; 
+                font-size: 3rem;
+            }
+            .p1{
+                letter-spacing: 0.5rem;
+                font-size: 2rem;
+                color: #FFF;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                margin-top: 0.5rem;
+
+            }
+            .p2{
+                letter-spacing: 0.2rem;
+                color: #FFF;
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal; 
+                font-size: 1rem;
+                max-width: 35%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            margin-bottom: 40%;
+        }
+        #home-2st-section{
+            width: 90%;
+        }
+    }
+}
+body{
+    background-color: $pcolor !important;
+}
